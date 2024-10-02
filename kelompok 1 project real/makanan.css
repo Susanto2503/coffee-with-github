@@ -1,0 +1,84 @@
+.wrapper {
+  background: url(mmm.jpg) no-repeat;
+  background-size: 1550px 600px;
+  background-position: center;
+  height: auto;
+  max-width: 100%;
+  background-color: #ffb3b3;
+  height: 68px;
+  width: auto;
+}
+@font-face {
+  font-family: black_diamond;
+  src: url(Black\ Diamonds\ Personal\ Use.ttf);
+}
+
+.dropdown-item1 {
+  color: inherit;
+  margin-left: 13px;
+  text-decoration: none;
+  position: relative;
+}
+.dropdown-item0 {
+  position: relative;
+  left: 11px;
+  text-decoration: none;
+  color: inherit;
+}
+.dropdown-item2 {
+  position: relative;
+  left: 10px;
+  text-decoration: none;
+  color: inherit;
+}
+.dropdown-item3 {
+  position: relative;
+  left: 11px;
+  text-decoration: none;
+  color: inherit;
+}
+.navbarhome {
+  height: 60px;
+  margin-top: 30px;
+  width: 525px;
+  margin-left: 507.2px;
+  display: flex;
+  position: sticky;
+  z-index: 10;
+}
+.nav-link {
+  text-size-adjust: 8px;
+}
+.center .buttons {
+  margin: 35px 280px;
+}
+.buttons button {
+  height: 25px;
+  width: 75px;
+  font-size: 8px;
+  font-weight: bold;
+  color: #ffb3b3;
+  background: red;
+  border: 1px solid #cc0000;
+  outline: none;
+  cursor: pointer;
+  border-radius: 15px;
+  transition: 0.5s;
+}
+.buttons .btn {
+  margin-left: 25px;
+}
+.buttons button:hover {
+  background: #cc0000;
+}
+.container {
+  width: 960px;
+  margin: 450px auto;
+}
+@font-face {
+  font-family: coffee_soda;
+  src: url(Coffee\ Soda.ttf);
+}
+.fufu {
+  font-family: co;
+}

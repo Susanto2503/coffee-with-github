@@ -1,0 +1,350 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("bb.jpg");
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+.animasi {
+  z-index: 0px;
+}
+
+@media screen and (max-width: 1024px) {
+  img.bg {
+    left: 50%;
+    margin-left: -512px; /* 50% */
+  }
+}
+.dropdown-item1 {
+  color: inherit;
+  margin-left: 13px;
+  text-decoration: none;
+}
+
+.navbarhome {
+  height: 60px;
+  margin-top: 30px;
+  width: 525px;
+  margin-left: 507.2px;
+  display: flex;
+  position: sticky;
+  z-index: 10;
+}
+.nav-link {
+  text-size-adjust: 8px;
+}
+.center .buttons {
+  margin: 35px 280px;
+}
+.buttons button {
+  height: 25px;
+  width: 75px;
+  font-size: 8px;
+  font-weight: bold;
+  color: #ffb3b3;
+  background: red;
+  border: 1px solid #cc0000;
+  outline: none;
+  cursor: pointer;
+  border-radius: 15px;
+  transition: 0.5s;
+}
+.buttons .btn {
+  margin-left: 25px;
+}
+.buttons button:hover {
+  background: #cc0000;
+}
+.container {
+  width: 960px;
+  margin: 450px auto;
+}
+
+/**
+.hero{
+    height: 400px;
+    background-image: url(chn2.jpg);
+    background-size: cover;
+}
+h2{
+    text-align: center;
+}
+hr{
+    width: 300px;
+    border-top: 3px solid lightblue;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.paragraf{
+    padding: 50px;
+}
+.paragraf p{
+    margin-bottom: 10px;
+}
+    **/
+.content {
+  padding: 50px;
+  margin-top: -20px;
+}
+
+.wrapper {
+  background: url(mmm.jpg) no-repeat;
+  background-size: 1550px 600px;
+  background-position: center;
+  height: auto;
+  max-width: 100%;
+  background-color: #ffb3b3;
+  height: 68px;
+  width: auto;
+}
+@font-face {
+  font-family: black_diamond;
+  src: url(Black\ Diamonds\ Personal\ Use.ttf);
+}
+/* 
+.kiri {
+  width: auto;
+  float: left;
+  background-color: #dcd3ff;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.kanan {
+  width: auto;
+  display: flex;
+  background-color: #dcd3ff;
+  padding: 20px;
+  box-sizing: border-box;
+  /* display: flex;    */
+/* align-items: center; */
+/* .santi img{
+    flex: 1;
+    text-align: right;
+} */
+
+/* .konten1{
+    display: flex;
+    align-items: center;
+    justify-content: s';
+} 
+
+.gambar1 {
+  text-align: right;
+  flex: 1;
+  float: right;
+}
+
+.teks1 {
+  text-align: left;
+  flex: 1;
+}
+
+.header {
+  padding: 50px;
+}
+.header p {
+  margin-top: 10px;
+}
+.gambar21 {
+  width: auto;
+  margin: 50px;
+  margin-top: 250px;
+}
+.header1 {
+  margin-right: 10px;
+}
+.susantitext {
+  font-size: 30px;
+}
+*/
+html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.slider-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.5s ease-in-out;
+  width: 500%; /* 5 slides, jadi lebar 500% */
+}
+
+.slide {
+  width: 20%; /* 1 slide = 20% dari slider */
+  height: 300px; /* Sesuaikan dengan kebutuhan */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.text {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  font-size: 1.2em;
+  border-radius: 5px;
+}
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lightgrey;
+  height: 450px;
+  width: 990px;
+  padding-top: 60px; /* To avoid overlap with navbar */
+  margin-left: 270px;
+}
+.text {
+  margin-left: 325px;
+  max-width: 500px;
+  width: auto;
+  display: flex;
+  margin-bottom: 350px;
+}
+.text h1 {
+  font-size: 36px;
+  opacity: 1;
+  margin-bottom: 20px;
+}
+.text p {
+  font-size: 18px;
+  line-height: 1.5;
+  opacity: 1;
+}
+.image {
+  max-width: 400px;
+  opacity: 1;
+}
+.image img {
+  width: 250px;
+  height: auto;
+  margin-top: 10px;
+  margin-left: 350px;
+}
+.content1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lightgrey;
+  height: 450px;
+  width: 990px;
+  padding-top: 60px; /* To avoid overlap with navbar */
+  margin-left: 270px;
+  margin-top: 20px;
+}
+/* .text1 {
+  margin-left: 400px;
+  margin-top: 310px;
+  width: 600px;
+  display: flex;
+  margin-bottom: 350px;
+} */
+.image1 {
+  max-width: 400px;
+  opacity: 1;
+}
+.image1 img {
+  margin-right: 385px;
+  top: 600px;
+  width: 250px;
+  height: 360px;
+  float: right;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  /* margin-right: 640px; */
+}
+.text1 {
+  bottom: 20px;
+  position: absolute;
+  left: 200px;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  font-size: 1.2em;
+  border-radius: 5px;
+  width: 600px;
+  margin-left: 400px;
+  /* top: 750px; */
+  bottom: -100px;
+  display: flex;
+}
+
+.text2 {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  font-size: 1.2em;
+  border-radius: 5px;
+  display: flex;
+}
+.content2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lightgrey;
+  height: 450px;
+  width: 990px;
+  padding-top: 60px; /* To avoid overlap with navbar */
+  margin-left: 270px;
+  margin-top: 20px;
+}
+.text2 {
+  margin-left: 325px;
+  max-width: 500px;
+  width: 300px;
+  display: flex;
+  margin-bottom: 350px;
+}
+
+.text2 h1 {
+  font-size: 36px;
+  opacity: 1;
+  margin-bottom: 20px;
+}
+.teks2 p {
+  font-size: 18px;
+  line-height: 1.5;
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  margin-right: 10px;
+  margin-left: 15px;
+}
+.text2 {
+  margin-left: 325px;
+  max-width: 500px;
+  width: 300px;
+  display: flex;
+  margin-bottom: 350px;
+}
+.image2 {
+  max-width: 400px;
+  opacity: 1;
+  height: 300px;
+  margin-right: 15px;
+}
+.img2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 350px;
+  margin-right: 15px;
+}
